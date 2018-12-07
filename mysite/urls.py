@@ -18,5 +18,7 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('polls/', include('polls.urls'))
+    path('polls/', include('polls.urls')),
+    path('practice/', include('practice.urls')),
+    path('blog/', include('blog.urls')),    # 可以把blog去掉，然后访问http://domain/index
 ]
