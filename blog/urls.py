@@ -7,5 +7,6 @@ app_name = 'blog'
 urlpatterns = [
     path('hello/', views.hello, name='hello'),
     path('', views.index, name='index'),
+    path('orm/', views.orm, name='orm')
 ]
 
